@@ -16,16 +16,16 @@
 #menu{
     position: fixed;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100%;
     height: 122px;
-    background-color: white;
+    background: rgba(236, 240, 236, 0.1);
 }
 
 
-ul{
+header ul{
     list-style: none;
     display: flex;
     align-items:center;
@@ -41,6 +41,11 @@ li{
 a{
     color: #555;
     text-decoration: none;
+}
+
+#img-capa{
+    width:1340px;
+    padding-top: 100px;
 }
 
 h1{
@@ -75,19 +80,24 @@ body{
     object-fit: cover;
 }
 footer img{
-    height: 30px;
-    width: 30px;
-    padding-right: 10px;
+    height: 20px;
+    width: 20px;
 }
 
-footer div {
-    margin-left: 40px;
+footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+footer p{
+    text-align: center;
 }
 
 footer{
-    display: flex;
-    align-items: center;
     background-color: rgb(228, 226, 226);
-    height: 126px;
+    height: 100px;
     width: 100%;
+ 
 }
