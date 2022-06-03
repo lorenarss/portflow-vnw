@@ -38,9 +38,15 @@ li{
    height: 30px;
     padding: 20px;
 }
+
 a{
     color: #555;
     text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+    font-weight: 1000;
 }
 
 #img-capa{
@@ -56,9 +62,7 @@ h2{
     font-size: 36px;
     color: white;
 }
-main{
-   
-}
+
 body{
     padding-top: 40px;
 }
@@ -93,6 +97,10 @@ footer ul{
 
 footer p{
     text-align: center;
+}
+
+footer p b {
+    padding: 15px;
 }
 
 footer{
